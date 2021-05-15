@@ -1,0 +1,203 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+@media (max-width: 899px) {
+  nav {
+    display: none;
+  }
+}
+body {
+  margin: 0;
+  background-color: #ffdebd;
+}
+
+/* Intro */
+
+.contenedor-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 18px 18px;
+}
+
+.logo {
+  width: 54px;
+  height: 50px;
+}
+
+.bienvenidos {
+  font-size: 48px;
+  margin: 94px 42px 0px 42px;
+  text-align: center;
+}
+
+.foto-ramiro {
+  height: 360px;
+  width: 360px;
+  margin: 58px 26px 0px 31px;
+}
+
+.linea {
+  width: 36px;
+  height: 6px;
+  background-color: black;
+  margin-bottom: 7px;
+  border-radius: 20%;
+}
+
+/* Sobre mi*/
+
+.sobre-mi-contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #141414;
+  color: white;
+  width: 100%;
+}
+
+.bloque {
+  display: flex;
+  flex-direction: column;
+  margin: 55px 32px 57px 31px;
+}
+
+.soy-rama {
+  text-align: center;
+}
+
+.check {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 68px;
+}
+
+/*Servicios */
+
+.titulo-servicios {
+  text-align: center;
+  width: 100%;
+  font-size: 32px;
+  margin: 66px 0 48px 0;
+}
+.compu-imagen {
+  width: 138px;
+  height: 128px;
+  margin-top: 30px;
+}
+.contenedor-servicios {
+  padding: 0 56px 56px 66px;
+  height: auto;
+}
+
+.item-servicios {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+/* Formulario */
+.contenedor-formulario {
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.titulo-escribime {
+  color: white;
+  text-align: center;
+  margin: 69px 0 36px 0;
+}
+.contenedor-input {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 0 10px;
+  margin: 0 30px;
+}
+
+input {
+  height: 45px;
+}
+
+.mensaje {
+  height: 113px;
+}
+
+.boton {
+  font-family: "Roboto", sans-serif;
+  background: #ffdebd;
+  height: 45px;
+  margin: 30px 0 30px 0;
+}
+
+.label {
+  padding-bottom: 9px;
+}
+
+/* FOOTER */
+
+.contenedor-footer {
+  padding: 53px 200px 119px 20px;
+  background-image: url("./puntitos.svg");
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.logo-footer {
+  width: 70px;
+  height: 70px;
+}
+
+.redes-sociales {
+  width: 29px;
+  height: 29px;
+}
+
+.lista-redes-sociales {
+  list-style-type: none;
+  padding: 0;
+}
+
+.copyright-footer {
+  margin-bottom: 89px;
+}
+
+.redes-sociales {
+  margin-right: 7px;
+}
+
+.link-footer {
+  text-decoration: none;
+  color: #141414;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+li {
+  margin-bottom: 20px;
+}
